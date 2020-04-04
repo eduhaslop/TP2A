@@ -21,6 +21,7 @@ printInventors(inventors);
 // //     }
 // // ));
 
+
 // printInventors(inventors.filter(inventor => inventor.year > 1800));
 
 // // Ejercio:
@@ -52,8 +53,8 @@ console.log("Ejercicio 4.-");
 // printInventors(
 //     inventors.find(inventor => inventor.last == "Kepler")
 // );
-let array = [];
-printInventors(array.push(inventors.find(inventor => inventor.last == "Kepler")));
+//let array = [];
+//printInventors(array.push(inventors.find(inventor => inventor.last == "Kepler")));
 
 //Ejercicio
 // 5.- Alguno de los inventores nacio en 1858?
