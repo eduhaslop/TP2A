@@ -22,7 +22,7 @@ console.log(datos);
 /**
  * 
  * @param {*} path ruta del archivo
- * @param {*} datos cadena  de inventors
+ * @param {*} datos cadena de inventors
  */
 function saveInventors(path, datos){
 

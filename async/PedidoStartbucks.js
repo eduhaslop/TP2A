@@ -13,7 +13,7 @@ let pedido2 = {
     cliente: 'Pablo'
 }
 
-// definicion de callback es un parametro (que es una funcion) que pasa a otra funcion
+// definicion de callback: es un parámetro (que es una función) que pasa a otra funcion
 function pedidoStarbuck(pedido, callbackCliente){
     switch (pedido.nombre) {
         case 'Caffe Vanilla':

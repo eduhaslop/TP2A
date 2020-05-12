@@ -8,7 +8,7 @@ function resolver2segundos(){
 }
 
 async function asyncCall(){
-    console.log('Llamanda...');
+    console.log('Llamando...');
     const resultado = await resolver2segundos();
     
     console.log(resultado);

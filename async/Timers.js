@@ -9,7 +9,7 @@
 // }, 1*1000);
 
 // Ejercicio
-// Ejecutar un hola mundo depues de 3 segundo por 10 veces
+// Ejecutar un hola mundo después de 3 segundo por 10 veces
 
 let i = 0;
 let timerId = setInterval(() => {
@@ -18,4 +18,4 @@ let timerId = setInterval(() => {
     if(i==10){
         clearInterval(timerId);
     }
-}, 3 * 1000);
+}, 1 * 1000);
